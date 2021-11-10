@@ -12,6 +12,7 @@ body {
 
 .top-container header {
     display: flex;
+    flex: 1 0 auto;
 }
 
 h1 {
@@ -40,7 +41,7 @@ h1 {
 .intro.txt {
     display: flex;
     flex-direction: column;
-    flex: 1;
+    flex: 1 1 auto;
     padding: 8px 48px 36px 0;
     margin: 8px 8px 0 8px;
 }
@@ -69,7 +70,8 @@ h2 {
 
 .intro.img {
     display: flex;
-    flex: 1;
+    flex: 2 2 auto;
+    width: 5000px;
     background-color: #6f757d;
     padding: 10px;
     height: 250px;
@@ -89,26 +91,38 @@ h2 {
 
 .feature-container ul {
     display: flex;
-    padding: 16px;
-    max-width: 50%;
+    padding: 36px 500px;
+    gap: 72px;
+    flex-wrap: wrap;
+
+}
+
+.feature-container ul li {
+    display: flex;
+    padding: 0px;
+    margin: 0;
+    flex-direction: column;
+    width: 200px;
+
 }
 
 .feature-container p {
-    padding: 8px 24px;
+    padding: 8px;
     text-align: center;
     margin-top: 0;
-    color: rgb(85, 85, 85)
+    font-size: 18px;
+    color: rgb(85, 85, 85);
 }
 
 .box {
-    border-width: 4px;
+    border-width: 5px;
     border-style: solid;
     border-color: #3882F6;
     border-radius: 16px;
-    width: 170px;
-    height: 170px;
+    width: 210px;
+    height: 210px;
     display: flex;
-    margin: auto;
+    align-self: center;
 }
 
 h3 {
