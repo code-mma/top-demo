@@ -12,7 +12,8 @@ body {
 
 .top-container header {
     display: flex;
-    flex: 1 0 auto;
+    flex: 1 1 auto;
+    flex-flow: row wrap;
 }
 
 h1 {
@@ -36,6 +37,7 @@ h1 {
     margin: 0 auto 20px auto;
     display: flex;
     padding: 72px 0;
+    flex-flow: row wrap;
 }
 
 .intro.txt {
@@ -44,6 +46,7 @@ h1 {
     flex: 1 1 auto;
     padding: 8px 48px 36px 0;
     margin: 8px 8px 0 8px;
+    width: 200px;
 }
 
 h2 {
@@ -66,12 +69,12 @@ h2 {
     color: white;
     font-weight: bold;
     border: none;
+    margin-bottom: 10px;
 }
 
 .intro.img {
     display: flex;
-    flex: 2 2 auto;
-    width: 5000px;
+    width: 500px;
     background-color: #6f757d;
     padding: 10px;
     height: 250px;
@@ -91,9 +94,11 @@ h2 {
 
 .feature-container ul {
     display: flex;
-    padding: 36px 500px;
-    gap: 72px;
+    padding: 36px 50px;
+    gap: 52px;
 
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .feature-container ul li {
@@ -114,12 +119,12 @@ h2 {
 }
 
 .box {
-    border-width: 5px;
+    border-width: 4px;
     border-style: solid;
     border-color: #3882F6;
     border-radius: 16px;
-    width: 210px;
-    height: 210px;
+    width: 200px;
+    height: 200px;
     display: flex;
     align-self: center;
 }
@@ -130,6 +135,7 @@ h3 {
     font-weight: bolder;
     margin-bottom: 0;
     padding: 0;
+    text-align: center;
 }
 
 .quote-container {
@@ -165,18 +171,20 @@ h4 {
     display: flex;
     background-color: #3882F6;
     border-radius: 8px;
-    margin: 70px 0;
+    margin: 100px 50px;
     color: white;
-    align-items: center;
-    padding: 0 50px;
-    gap: 300px;
+    /*! align-items: center; */
+    padding: 0 5%;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
 .signup-box.txt {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 0;
+    padding: 0px;
+    flex: 2 1 auto;
 }
 
 .signup-box.txt p {
@@ -199,9 +207,11 @@ h5 {
     background-color: #3882F6;
     color: white;
     font-weight: bolder;
-    padding: 6px 36px;
+    padding: 10px 48px;
     font-size: 16px;
-    margin-right: 50px;
+    margin: 20px 15px;
+    height: 45px;
+    align-self: center;
 }
 
 footer {
