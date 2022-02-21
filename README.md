@@ -11,7 +11,6 @@ This is a solution to the [Landing Page activity of The Odin Project](https://ww
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -19,7 +18,7 @@ This is a solution to the [Landing Page activity of The Odin Project](https://ww
 
 ### The challenge
 
-...
+Create an entire web page from the design provided by The Odin Project. Get the project as close to the design.
 
 ### Screenshot
 
@@ -39,11 +38,7 @@ This is a solution to the [Landing Page activity of The Odin Project](https://ww
 
 ### What I learned
 
-...
-
-### Continued development
-
-...
+From this exercise, I had a chance to train my skills in CSS Flexbox while using browser development tools.
 
 ### Useful resources
 
